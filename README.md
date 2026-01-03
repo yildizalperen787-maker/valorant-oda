@@ -1,1 +1,60 @@
-# valorant-oda
+# valorant-oda<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mert'in Web Sitesi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: black;
+            color: white;
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(90deg, red, blue);
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        button {
+            background: red;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+        button:hover {
+            background: darkred;
+        }
+        footer {
+            background: #111;
+            padding: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    🔥 Mert'in Web Sitesi
+</header>
+
+<section>
+    <h1>Hoş Geldin!</h1>
+    <p>Bu site telefonla yapıldı 😎</p>
+    <button onclick="alert('Site çalışıyor!')">Tıkla</button>
+</section>
+
+<footer>
+    © 2026 Mert Yılmaz
+</footer>
+
+</body>
+</html>
